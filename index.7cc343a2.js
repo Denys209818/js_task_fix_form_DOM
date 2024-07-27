@@ -1,0 +1,2 @@
+var e=document.getElementsByClassName("field-text");function t(e){return e.toLowerCase().endsWith("name")?e.slice(0,-4)+" "+e.slice(-4):e}for(var r=0;r<e.length;r++){var l=document.createElement("label"),n=e[r].getAttribute("name"),s=e[r].getAttribute("id");l.setAttribute("for",s),l.setAttribute("class","field-label"),e[r].setAttribute("placeholder",t(n.slice(0,1).toUpperCase()+n.slice(1))),l.textContent=t(n.toUpperCase()),e[r].insertAdjacentElement("beforebegin",l)}
+//# sourceMappingURL=index.7cc343a2.js.map
